@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&family=Rubik:wght@300;500&display=swap');
+
+:root {
+  --ff-headline-sans: 'Rubik', sans-serif;
+  --ff-serif: 'Roboto Slab', serif;
+
+  --clr-neutral-dark: #090429;
+  --clr-neutral-light: #fafaff;
+
+  --clr-accent-blue: #5a41ed;
+  --clr-accent-pink: #f81ca9;
+  --clr-accent-green: #139b61;
+  /* font-family: Inter, Avenir, Helvetica, Arial, sans-serif; */
+  font-family: var(--ff-headline-sans);
+  font-size: 16px;
+  font-weight: 500;
+
+  background-color: var(--clr-neutral-light);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  /* background-color: var(--clr-accent-blue); */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 14px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.headline {
+  font-family: var(--ff-headline-sans);
+  font-size: 3rem;
+  font-weight: 500;
+  color: var(--clr-neutral-dark);
+}
+
+.sub-headline {
+  font-size: 1.3125rem;
+  font-weight: 300;
+}
+
+#root {
+  isolation: isolate;
+}
